@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import rickandmorty from "../../Assets/Projects/rickandmorty.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import blogDeCafe from "../../Assets/Projects/blogDeCafe.png";
 import Rivelle from "../../Assets/Projects/rivelle.png";
 import musicFestival from "../../Assets/Projects/musicFestival.png";
-import testPortfolio from "../../Assets/Projects/testPortfolio.png";
 
 function Projects() {
   return (
