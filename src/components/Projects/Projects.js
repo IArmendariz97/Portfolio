@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import blogDeCafe from "../../Assets/Projects/blogDeCafe.png";
 import Rivelle from "../../Assets/Projects/rivelle.png";
 import musicFestival from "../../Assets/Projects/musicFestival.png";
-
+import notepad from "../../Assets/Projects/notepad.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -48,6 +48,17 @@ function Projects() {
               description="Blog de Café is a project where I put into practice what I learned about HTML and CSS adding my first knowledge of JavaScript."
               ghLink="https://github.com/IArmendariz97/BlogDeCafe-misinicios"
               demoLink="https://proyectowebnro3.netlify.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={notepad}
+              isBlog={false}
+              title="blogDeCafe"
+              description="This project aims to create a full-stack web application with two main phases. In the first phase, users can create, edit, delete, archive, and list notes. The second phase introduces the ability to add or remove categories (tags) to notes and filter them based on these categories. The application follows a Single Page Web Application (SPA) structure, utilizing separate frontend and backend components. A RESTful API is implemented in the backend, and proper architectural considerations are emphasized. The project requires content persistence in a relational database using an Object-Relational Mapping (ORM)"
+              ghLink="https://github.com/IArmendariz97/NotepadOnline"
+              demoLink="https://frontend-notepad.onrender.com/"
             />
           </Col>
         </Row>
