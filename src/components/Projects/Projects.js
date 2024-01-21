@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import blogDeCafe from "../../Assets/Projects/blogDeCafe.png";
 import Rivelle from "../../Assets/Projects/rivelle.png";
 import musicFestival from "../../Assets/Projects/musicFestival.png";
-import notepad from "../../Assets/Projects/notepad.png";
+import notepad from "../../Assets/Projects/notepad.jpg";
 function Projects() {
   return (
     <Container fluid className="project-section">
