@@ -6,6 +6,7 @@ import blogDeCafe from "../../Assets/Projects/blogDeCafe.png";
 import Rivelle from "../../Assets/Projects/rivelle.png";
 import musicFestival from "../../Assets/Projects/musicFestival.png";
 import notepad from "../../Assets/Projects/notepad.jpg";
+import marvel from "../../Assets/Projects/marvel.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -55,10 +56,24 @@ function Projects() {
             <ProjectCard
               imgPath={notepad}
               isBlog={false}
-              title="blogDeCafe"
+              title="Notepad"
               description="This project aims to create a full-stack web application with two main phases. In the first phase, users can create, edit, delete, archive, and list notes. The second phase introduces the ability to add or remove categories (tags) to notes and filter them based on these categories. The application follows a Single Page Web Application (SPA) structure, utilizing separate frontend and backend components. A RESTful API is implemented in the backend, and proper architectural considerations are emphasized. The project requires content persistence in a relational database using an Object-Relational Mapping (ORM)"
               ghLink="https://github.com/IArmendariz97/NotepadOnline"
               demoLink="https://frontend-notepad.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={marvel}
+              isBlog={false}
+              title="Marvel app"
+              description="La MARVEL APP es una aplicación web que te permite explorar información sobre personajes y cómics del universo de Marvel"
+              ghLink="https://github.com/IArmendariz97/marvel. Características:
+                Buscar personajes de Marvel.
+                Filtrar resultados por personajes o cómics.
+                Ver detalles de cada personaje, incluidos los cómics en los que aparece.
+                Guardar búsquedas favoritas para acceder rápidamente en el futuro."
+              demoLink="https://marvel-app-m138.onrender.com/"
             />
           </Col>
         </Row>
