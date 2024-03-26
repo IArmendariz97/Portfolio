@@ -7,6 +7,8 @@ import Rivelle from "../../Assets/Projects/rivelle.png";
 import musicFestival from "../../Assets/Projects/musicFestival.png";
 import notepad from "../../Assets/Projects/notepad.jpg";
 import marvel from "../../Assets/Projects/marvel.png";
+import vanzini from "../../Assets/Projects/vanzini.png";
+import saludenmovimiento from "../../Assets/Projects/saludenmovimiento.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -89,7 +91,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={vanzini}
+              imgPath={saludenmovimiento}
               isBlog={false}
               title="Gimnasio salud en movimiento"
               description="Una pagina para un gimnasio con un sistema de inscripcion y asignacion de rutinas particulares o grupales, ademas de seguimiento."
