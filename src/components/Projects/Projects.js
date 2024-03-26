@@ -7,8 +7,8 @@ import Rivelle from "../../Assets/Projects/rivelle.png";
 import musicFestival from "../../Assets/Projects/musicFestival.png";
 import notepad from "../../Assets/Projects/notepad.jpg";
 import marvel from "../../Assets/Projects/marvel.png";
-import vanzini from "../../Assets/Projects/vanzini.png";
-import saludenmovimiento from "../../Assets/Projects/saludenmovimiento.png";
+import vanzini from "../../Assets/vanzini.png";
+import saludenmovimiento from "../../Assets/saludenmovimiento.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
