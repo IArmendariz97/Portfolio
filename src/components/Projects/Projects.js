@@ -31,6 +31,26 @@ function Projects() {
               demoLink="https://rivelle.netlify.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vanzini}
+              isBlog={false}
+              title="Inmobiliaria de rosario"
+              description="Una inombiliaria con mas de 3000 propiedades publicadas, con un sistema de busqueda avanzado y un sistema de administracion de propiedades."
+              ghLink=""
+              demoLink="https://staging.vanzini.com.ar/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={saludenmovimiento}
+              isBlog={false}
+              title="Gimnasio salud en movimiento"
+              description="Una pagina para un gimnasio con un sistema de inscripcion y asignacion de rutinas particulares o grupales, ademas de seguimiento."
+              ghLink="https://github.com/BiztekSolutions/Front-SeM"
+              demoLink="https://salud-en-movimiento.com.ar/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -59,7 +79,7 @@ function Projects() {
               imgPath={notepad}
               isBlog={false}
               title="Notepad"
-              description="This project aims to create a full-stack web application with two main phases. In the first phase, users can create, edit, delete, archive, and list notes. The second phase introduces the ability to add or remove categories (tags) to notes and filter them based on these categories. The application follows a Single Page Web Application (SPA) structure, utilizing separate frontend and backend components. A RESTful API is implemented in the backend, and proper architectural considerations are emphasized. The project requires content persistence in a relational database using an Object-Relational Mapping (ORM)"
+              description="This project aims to create a full-stack web application with two main phases. In the first phase, users can create, edit, delete, archive, and list notes."
               ghLink="https://github.com/IArmendariz97/NotepadOnline"
               demoLink="https://frontend-notepad.onrender.com/"
             />
@@ -79,26 +99,7 @@ function Projects() {
               demoLink="https://marvel-app-m138.onrender.com/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={vanzini}
-              isBlog={false}
-              title="Inmobiliaria de rosario"
-              description="Una inombiliaria con mas de 3000 propiedades publicadas, con un sistema de busqueda avanzado y un sistema de administracion de propiedades."
-              ghLink=""
-              demoLink="https://staging.vanzini.com.ar/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={saludenmovimiento}
-              isBlog={false}
-              title="Gimnasio salud en movimiento"
-              description="Una pagina para un gimnasio con un sistema de inscripcion y asignacion de rutinas particulares o grupales, ademas de seguimiento."
-              ghLink="https://github.com/BiztekSolutions/Front-SeM"
-              demoLink="https://salud-en-movimiento.com.ar/"
-            />
-          </Col>
+         
         </Row>
       </Container>
     </Container>
