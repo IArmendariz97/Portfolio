@@ -15,7 +15,7 @@ import {
   SiRedux,
   SiExpress,
   SiSequelize,
-  SiMongoDB,
+  SiMongodb,
   SiNextdotjs,
   SiPrisma
 } from "react-icons/si";
@@ -70,7 +70,7 @@ function Techstack() {
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMongoDB />
+        <SiMongodb />
       </Col>
     </Row>
   );
