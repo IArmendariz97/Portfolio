@@ -67,13 +67,34 @@ function Projects() {
               imgPath={marvel}
               isBlog={false}
               title="Marvel app"
-              description="La MARVEL APP es una aplicación web que te permite explorar información sobre personajes y cómics del universo de Marvel"
-              ghLink="https://github.com/IArmendariz97/marvel. Características:
+              description="La MARVEL APP es una aplicación web que te permite explorar información sobre personajes y cómics del universo de Marvel. 
+              Características:
                 Buscar personajes de Marvel.
                 Filtrar resultados por personajes o cómics.
                 Ver detalles de cada personaje, incluidos los cómics en los que aparece.
                 Guardar búsquedas favoritas para acceder rápidamente en el futuro."
+              ghLink="https://github.com/IArmendariz97/marvel"
               demoLink="https://marvel-app-m138.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vanzini}
+              isBlog={false}
+              title="Inmobiliaria de rosario"
+              description="Una inombiliaria con mas de 3000 propiedades publicadas, con un sistema de busqueda avanzado y un sistema de administracion de propiedades."
+              ghLink=""
+              demoLink="https://staging.vanzini.com.ar/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vanzini}
+              isBlog={false}
+              title="Gimnasio salud en movimiento"
+              description="Una pagina para un gimnasio con un sistema de inscripcion y asignacion de rutinas particulares o grupales, ademas de seguimiento."
+              ghLink="https://github.com/BiztekSolutions/Front-SeM"
+              demoLink="https://salud-en-movimiento.com.ar/"
             />
           </Col>
         </Row>

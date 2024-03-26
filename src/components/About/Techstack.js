@@ -7,6 +7,7 @@ import {
   DiNodejs,
   DiGit,
   DiJava,
+  DiPython,
 } from "react-icons/di";
 import {
   SiPostgresql,
@@ -14,6 +15,9 @@ import {
   SiRedux,
   SiExpress,
   SiSequelize,
+  SiMongoDB,
+  SiNextdotjs,
+  SiPrisma
 } from "react-icons/si";
 
 function Techstack() {
@@ -25,9 +29,16 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
@@ -42,6 +53,9 @@ function Techstack() {
         <SiSequelize />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiPrisma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
 
@@ -54,6 +68,9 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongoDB />
       </Col>
     </Row>
   );
